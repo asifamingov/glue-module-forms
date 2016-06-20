@@ -1,1 +1,18 @@
-@import "slider";
+@import "modules/_fonts";
+@import "modules/theme/_qgov";
+
+//mixins
+@import "modules/mixins/_clearfix";
+@import "modules/mixins/_cursor";
+@import "modules/mixins/_fonts";
+
+//status
+@import "qgov/partials/pattern/_status";
+
+//forms
+
+@import "qgov/partials/pattern/form/_xor";
+@import "qgov/partials/pattern/form/_search-suggestions";
+@import "qgov/partials/pattern/form/_form";
+@import "qgov/partials/pattern/form/_button";
+@import "qgov/partials/pattern/form/_placeholder";
